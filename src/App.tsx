@@ -1,16 +1,17 @@
-import React from "react";
-import logo from "./logo.svg";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
+import { LandingPage, SkillsPage } from "./views";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Building my own personal website.</p>
-        <p>It's under construction! Please come back soon.</p>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/">
+        <LandingPage />
+      </Route>
+      <Route path="/skills">
+        <SkillsPage />
+      </Route>
+    </Switch>
   );
 }
 
