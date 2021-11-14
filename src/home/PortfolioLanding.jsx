@@ -19,14 +19,13 @@ const SlideList = [
       "Hi, I’m <span>Diego Bugs</span><br/>Welcome to my personal website.",
     description: "",
     buttonText: "Download my CV",
-    buttonLink: "",
+    buttonLink: `${process.env.PUBLIC_URL}/assets/cv.pdf`,
   },
 ];
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
       "I am a software engineer looking for personal and professional growth, always being pro-active, with a good work ethic and enthusiasm. I have always been a person who never gives up.";
-  const PostList = BlogContent.slice(0, 3);
   return (
     <div>
       <Helmet pageTitle="Diego Bugs" />
@@ -69,6 +68,8 @@ const PortfolioLanding = () => {
                           <a
                             className="btn-default"
                             href={`${value.buttonLink}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             {value.buttonText}
                           </a>

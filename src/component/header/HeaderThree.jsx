@@ -124,7 +124,7 @@ class HeaderThree extends Component {
               <a
                 className="btn-default btn-border btn-opacity"
                 target="_blank"
-                href="https://themeforest.net/checkout/from_item/31405042?license=regular"
+                href={`${process.env.PUBLIC_URL}/assets/cv.pdf`}
               >
                 <span>Download my CV</span>
               </a>
