@@ -1,14 +1,10 @@
 import React from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp, FiCheck } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
-import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
 import Helmet from "../component/common/Helmet";
 
 const SlideList = [
