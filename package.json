@@ -1,8 +1,8 @@
 {
-  "name": "Imroz",
+  "name": "me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://imroz.rainbowit.net/",
+  "homepage": "https://diegobugs.github.io/me/",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
