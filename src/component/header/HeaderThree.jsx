@@ -54,28 +54,39 @@ class HeaderThree extends Component {
     let logoUrl;
     if (logo === "light") {
       logoUrl = (
-        <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/logo/logo-light.png`}
+          alt="DB"
+        />
       );
     } else if (logo === "dark") {
       logoUrl = (
-        <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/logo/logo-dark.png`}
+          alt="DB"
+        />
       );
     } else if (logo === "symbol-dark") {
       logoUrl = (
         <img
-          src="/assets/images/logo/logo-symbol-dark.png"
+          src={`${process.env.PUBLIC_URL}/assets/images/logo/logo-symbol-dark.png`}
           alt="Digital Agency"
         />
       );
     } else if (logo === "symbol-light") {
       logoUrl = (
         <img
-          src="/assets/images/logo/logo-symbol-light.png"
+          src={`${process.env.PUBLIC_URL}/assets/images/logo/logo-symbol-light.png`}
           alt="Digital Agency"
         />
       );
     } else {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+      logoUrl = (
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/logo/logo.png`}
+          alt="DB"
+        />
+      );
     }
 
     return (

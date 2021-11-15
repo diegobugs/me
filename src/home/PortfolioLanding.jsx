@@ -25,7 +25,7 @@ const PortfolioLanding = () => {
   return (
     <div>
       <Helmet pageTitle="Diego Bugs" />
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      <HeaderThree homeLink="/me" logo="symbol-dark" color="color-black" />
       {/* Start Slider Area   */}
       <div id="home" className="fix">
         <div className="slider-wrapper">
