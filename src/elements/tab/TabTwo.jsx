@@ -101,7 +101,7 @@ class TabsTwo extends Component {
                             </span>
                             <span> - Mango Payments S.A</span>
                           </div>{" "}
-                          <div>21/12/2020 - Current</div>
+                          <div>21/12/2020 - 10/12/2021</div>
                           <div>
                             Skills:{" "}
                             <span className="tag theme-gradient">

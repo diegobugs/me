@@ -11,9 +11,8 @@ const SlideList = [
   {
     textPosition: "text-left",
     category: "Software Engineer, Front-end developer.",
-    title:
-      "Hi, I’m <span>Diego Bugs</span><br/>Welcome to my personal website.",
-    description: "",
+    title: "Hi, I’m <span>Diego Bugs</span>",
+    description: "Welcome to my personal website.",
     buttonText: "Download my CV",
     buttonLink: `${process.env.PUBLIC_URL}/assets/cv.pdf`,
   },
