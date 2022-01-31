@@ -2,15 +2,21 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 const Portfolio_image = (
   <img
-    src="/assets/images/portfolio/portfolio-1.jpg"
+    src={`${process.env.PUBLIC_URL}/assets/images/portfolio/portfolio-1.jpg`}
     alt="CUBI, ERP software"
   />
 );
 const Portfolio_image2 = (
-  <img src="/assets/images/portfolio/portfolio-2.jpg" alt="Orevitae" />
+  <img
+    src={`${process.env.PUBLIC_URL}/assets/images/portfolio/portfolio-2.jpg`}
+    alt="Orevitae"
+  />
 );
 const Portfolio_image3 = (
-  <img src="/assets/images/portfolio/portfolio-3.jpg" alt="Mango" />
+  <img
+    src={`${process.env.PUBLIC_URL}/assets/images/portfolio/portfolio-3.jpg`}
+    alt="Mango"
+  />
 );
 
 const PortfolioListContent = [
