@@ -13,6 +13,9 @@ body:
         > Please don't forget to set assignees and a priority label
         ### Priority
         > For priority pleaase check the following table
+  - type: markdown
+    attributes:
+      value: |
         |Severity/Type ||Frequency|||
         |--|--|--|--|--|
         ||All users|Most users|Some users|Few users|
