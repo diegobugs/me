@@ -84,7 +84,7 @@ body:
         - "Other"
   - type: textarea
     attributes:
-      label: Environment specific versions
+      label: Environment specific versions 🔗
       placeholder: |
         Firefox: 1.0.0
         Google chorme: 1.0.0
