@@ -16,14 +16,14 @@ body:
   - type: markdown
     attributes:
       value: |
-      |Severity/Type||Frequency|||
-      |--|--|--|--|--|
-      ||All users|Most users|Some users|Few users|
-      | Very likely |![](https://singlecolorimage.com/get/462190/100x25) |![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|
-      |Likely|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|
-      |Moderate|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|
-      |Unlikely|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|
-      |Rare|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|
+        |Severity/Type||Frequency|||
+        |--|--|--|--|--|
+        ||All users|Most users|Some users|Few users|
+        | Very likely |![](https://singlecolorimage.com/get/462190/100x25) |![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|
+        |Likely|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|
+        |Moderate|![](https://singlecolorimage.com/get/BB262A/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|
+        |Unlikely|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|
+        |Rare|![](https://singlecolorimage.com/get/D19B31/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|![](https://singlecolorimage.com/get/3B8639/100x25)|
   - type: checkboxes
     attributes:
       label: To avoid duplicates, please check the following list.
@@ -70,7 +70,7 @@ body:
         - "Microsoft Edge"
         - "Opera"
         - "Safari"
-        - "Other" 
+        - "Other"
   - type: dropdown
     attributes:
       label: OS 🖥
