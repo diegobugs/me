@@ -1,24 +1,24 @@
-## Related issues 🔗
+### Related issues 🔗
 #
 
-## Changelog 📜
+### Changelog 📜
 
 - This adds ...
 - And also this...
 
-## Steps to test 🕹
+### Steps to test 🕹
 
 1. Clone the repo and install dependencies
 2. Run command ```yarn```
 3. ...
 
 
-## Related files/screenshots
+### Related files/screenshots
 
-## People interested on this
+### People interested on this
 @
 
-## Checklist ✔️
+### Checklist ✔️
 - [ ] I have tested this PR locally
 - [ ] I have run this PR on an online sandbox
 - [ ] Design is aproved by the team
