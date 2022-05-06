@@ -24,7 +24,6 @@ body:
     attributes:
       label: Related issues/features 🔗
       description: If this feature type requires a backend connection please provide the related issue.
-      render: Markdown
   - type: textarea
     attributes:
       label: Feature description 📝
@@ -37,4 +36,3 @@ body:
       description: Related designs for this feature.
       value: |
         - [SCREEN NAME] (VERSION OR DATE) [Check design here](http://link.com)
-      render: Markdown
