@@ -13,7 +13,7 @@ body:
         > Please don't forget to set assignees, effort and a priority labels
   - type: dropdown
     attributes:
-      label: '## Feature type 📍'
+      label: Feature type 📍
       description: Please select the type of feature you are creating. Types provide a better understanding of the following information.
       multiple: false
       options:
@@ -22,27 +22,28 @@ body:
         - 'Backend'
   - type: textarea
     attributes:
-      label: '## Related issues/features 🔗'
+      label: Related issues/features 🔗
       description: If this feature type requires a backend connection please provide the related issue.
       value: '#'
   - type: textarea
     attributes:
-      label: '## Feature description 📝'
+      label: Feature description 📝
       description: Describe in a detailed explanation what this features is intended for.
-      value: |
-        ### What should this feature do
-        ### TODO
-        - [ ] Generate something with x on component y
-        - [ ] Do cool stuff with z
     validations:
       required: true
   - type: textarea
     attributes:
-      label: '## Design 🖥'
+      label: TODO list ✓
+      value: |
+        - [ ] Generate something with x on component y
+        - [ ] Do cool stuff with z
+  - type: textarea
+    attributes:
+      label: Design 🖥
       description: Related designs for this feature.
       value: |
         - [SCREEN NAME] (VERSION OR DATE) [Check design here](http://link.com)
   - type: textarea
     attributes:
-      label: '## Additional files or docs 🖇'
+      label: Additional files or docs 🖇
       description: You can add link, files or anything that improves the feature request information.
