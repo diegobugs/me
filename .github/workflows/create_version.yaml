@@ -24,6 +24,6 @@ jobs:
       - name: Write version file        
         uses: jsdaniell/create-json@1.1.2
         with:
-          name: version.json
+          name: "version.json"
           dir: 'data/'
           json: '{"name": "me", "version": $version, "date": $date}'
