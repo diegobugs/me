@@ -27,4 +27,3 @@ jobs:
           name: version.json
           dir: 'data/'
           json: '{"name": "me", "version": $version, "date": $date}'
-          write-mode: overwrite
