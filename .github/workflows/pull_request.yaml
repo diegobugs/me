@@ -11,5 +11,5 @@ jobs:
       BRANCH: ${{github.event.pull_request.head.ref}}
     steps:
       - name: "Fail if is not a valid branch"
-        if: env.BRANCH != 'develop' && env.BRANCH != 'hotfix/*'
+        if: env.BRANCH != 'develop' && !startsWith(env.BRANCH, 'hotfix')
         run: echo "branch is $BRANCH" && exit 1
