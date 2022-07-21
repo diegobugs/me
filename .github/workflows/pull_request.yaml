@@ -7,7 +7,9 @@ on:
 jobs:
   validate_develop_usage:
     runs-on: ubuntu-latest
+    env:
+      BRANCH: ${{github.event.pull_request.head.ref}}
     steps:
       - name: "Validate feature is from develop"
-        if: ${{ !contains(github.event.pull_request.head.ref, 'develop') || !contains(github.event.pull_request.head.ref, 'hotfix') }}
-        run: exit 1
+        if: ${{ !contains(BRANCH, 'develop') || !contains(BRANCH, 'hotfix') }}
+        run: echo "branch is $BRANCH" && exit 1
