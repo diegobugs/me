@@ -10,6 +10,9 @@ jobs:
     env:
       BRANCH: ${{github.event.pull_request.head.ref}}
     steps:
-      - name: "Validate feature is from develop or hotfix"
+      - name: "Fail if is not develop"
         if: env.BRANCH != 'develop'
+        run: echo "branch is $BRANCH" && exit 1
+      - name: "Fail if is not hotfix"
+        if: env.BRANCH != 'hotfix/*'
         run: echo "branch is $BRANCH" && exit 1
