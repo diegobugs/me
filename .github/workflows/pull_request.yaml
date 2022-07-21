@@ -11,7 +11,5 @@ jobs:
       BRANCH: ${{github.event.pull_request.head.ref}}
     steps:
       - name: "Validate feature is from develop or hotfix"
-        if: ${{ contains(env.BRANCH, 'develop') || contains(env.BRANCH, 'hotfix') }}
-        run: echo "branch is $BRANCH" && exit 0
-      - name: "Fail since branch is not correct"
+        if: env.BRANCH !== 'develop'
         run: echo "branch is $BRANCH" && exit 1
