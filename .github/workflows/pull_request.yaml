@@ -1,0 +1,15 @@
+name: "Validate PRs"
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches: ["main"]
+jobs:
+  validate_develop_usage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate feature is from develop
+        env:
+          BRANCH: github.event.pull_request.head.ref
+        if: ${{ !startsWith(BRANCH, "develop") || !startsWith(BRANCH, "hotfix") }}
+        run: exit 1
