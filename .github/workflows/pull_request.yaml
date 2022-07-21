@@ -3,7 +3,7 @@ name: "Validate PRs"
 on:
   pull_request:
     types: [opened, synchronize]
-    branches: ["master"]
+    branches: ["main"]
 jobs:
   validate_develop_usage:
     runs-on: ubuntu-latest
