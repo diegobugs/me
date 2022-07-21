@@ -10,6 +10,6 @@ jobs:
     env:
       BRANCH: github.event.pull_request.head.ref
     steps:
-      - name: Validate feature is from develop
-        if: ${{ !startsWith(env.BRANCH, "develop") || !startsWith(env.BRANCH, "hotfix") }}
+      - name: "Validate feature is from develop"
+        if: ${{ !startsWith(env.BRANCH, 'develop') || !startsWith(env.BRANCH, 'hotfix') }}
         run: exit 1
