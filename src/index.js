@@ -19,18 +19,11 @@ import * as serviceWorker from "./serviceWorker";
 class Root extends Component {
   render() {
     return (
-      <BrowserRouter basename={"/"}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <PageScrollTop>
           <Switch>
-            <Route
-              exact
-              path={`${process.env.PUBLIC_URL}/`}
-              component={PortfolioLanding}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/404`}
-              component={error404}
-            />
+            <Route exact path={`/`} component={PortfolioLanding} />
+            <Route path={`/404`} component={error404} />
             <Route component={error404} />
           </Switch>
         </PageScrollTop>

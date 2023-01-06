@@ -2,8 +2,7 @@
   "name": "me",
   "version": "1.0.1",
   "private": true,
-  "homepage": "https://diegobugs.github.io/me/",
-  "basename": "/me",
+  "homepage": ".",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
