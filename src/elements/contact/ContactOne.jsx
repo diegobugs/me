@@ -12,12 +12,6 @@ class ContactOne extends Component {
                 <span className="subtitle">Let's Say Hi</span>
                 <h2 className="title">Get in touch.</h2>
                 <div className="im_address_inner">
-                  <div className="im_address">
-                    <span>Whatsapp or call me:</span>
-                    <a className="link im-hover" href="tel:+595 985 743058<">
-                      +595 985 743058
-                    </a>
-                  </div>
                   <div className="im_address mt--5">
                     <span>Contact Email:</span>
                     <a
